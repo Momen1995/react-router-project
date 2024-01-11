@@ -6,14 +6,15 @@ import {
   FaCar,
   FaForward,
   FaRegFlag,
+  FaAlignJustify,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const IconRow = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex lg:flex-row gap-3 justify-between mt-16">
-        <div className="flex gap-20">
+      <div className="flex flex-col lg:flex lg:flex-row gap-3 justify-between mt-12 pb-4">
+        <div className="flex gap-12 mx-auto lg:mx-0 lg:gap-20">
           <Link to="/classic">
             <div className="flex text-[16px] gap-1 text-sky-900 mb-4 justify-center  hover:text-[#146ebe]">
               <div>
@@ -49,12 +50,22 @@ const IconRow = () => {
             Free
           </Link>
         </div>
-        <div className="flex gap-6">
+        <div className="flex items-center gap-10 mx-auto lg:mx-0 mt-8 lg:mt-0">
           <div className="cursor-pointer">
-            <FaQrcode className="text-3xl text-sky-900 "></FaQrcode>
+            <FaQrcode className="text-4xl text-sky-900 hover:text-[#146ebe]"></FaQrcode>
           </div>
           <div className="cursor-pointer">
-            <FaGripHorizontal className="text-3xl text-sky-900 "></FaGripHorizontal>
+            <FaGripHorizontal className="text-4xl text-sky-900 hover:text-[#146ebe]"></FaGripHorizontal>
+          </div>
+          <div>
+            <FaAlignJustify className="text-4xl text-sky-900 hover:text-[#146ebe]" />
+          </div>
+          <div>
+            <select className="border-2 border-[#c3c6d1] px-3 py-2 rounded  hover:outline outline-offset-3 outline-sky-400 ">
+              <option>Feature</option>
+              <option>Alphabetical</option>
+              <option>Release</option>
+            </select>
           </div>
         </div>
       </div>
