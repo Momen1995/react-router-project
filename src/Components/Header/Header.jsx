@@ -1,4 +1,4 @@
-import { FaFontAwesomeFlag, FaArrowRight } from "react-icons/fa";
+import { FaFontAwesomeFlag, FaArrowRight, FaSearch } from "react-icons/fa";
 const Header = () => {
   return (
     <div>
@@ -26,13 +26,27 @@ const Header = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a>Start</a>
               </li>
               <li>
-                <a>Item 2</a>
+                <a>
+                  <FaSearch />
+                </a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Icons</a>
+              </li>
+              <li>
+                <a>Docs</a>
+              </li>
+              <li>
+                <a>Plans</a>
+              </li>
+              <li>
+                <a>Support</a>
+              </li>
+              <li>
+                <a>Podcast</a>
               </li>
             </ul>
           </div>
@@ -44,6 +58,11 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1 text-[16px] font-thin">
             <li>
               <a>Start</a>
+            </li>
+            <li>
+              <a>
+                <FaSearch />
+              </a>
             </li>
             <li>
               <a>Icons</a>
