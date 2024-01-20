@@ -5,7 +5,9 @@ import { PiCircleHalfThin, PiCircleLight, PiBagDuotone } from "react-icons/pi";
 import { AiFillAlert } from "react-icons/ai";
 import { MdSocialDistance } from "react-icons/md";
 
+
 const IconColumn = () => {
+
   return (
     <div>
       <nav>
@@ -15,7 +17,8 @@ const IconColumn = () => {
             to="/solid"
             className="font-normal text-sm flex items-center gap-2 hover:outline outline-1 outline-gray-400 rounded-lg px-2 py-2 duration-300"
           >
-            <FaCircle />
+            
+            <FaCircle />  
             Solid
           </Link>
           <Link

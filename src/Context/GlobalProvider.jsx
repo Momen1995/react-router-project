@@ -6,6 +6,9 @@ export const GlobalContext = createContext();
 
 const GlobalProvider = ({children}) => {
   const [icons,setIcons] = useState([])
+  const [inputIcons, setInputIcons] = useState(null);
+  const [styles, setStyles] = useState([]);
+  const [category, setCategory] = useState([]); 
 
   useEffect(() =>{
     const fetchIconData = async () =>{
@@ -23,7 +26,13 @@ const GlobalProvider = ({children}) => {
     <GlobalContext.Provider
       value={{
         icons,
-        setIcons
+        setIcons,
+        inputIcons,
+        setInputIcons,
+        styles,
+        setStyles,
+        category,
+        setCategory 
       }}
     >
       {children}
