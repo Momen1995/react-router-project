@@ -2,6 +2,7 @@ import { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 // import ErrorPage from '../ErrorPage/ErrorPage';
 import { GlobalContext } from "../../Context/GlobalProvider";
+import ErrorPage from "../ErrorPage/ErrorPage";
 
 export default function ShowIcons() {
   const { styles, icons, inputIcons, filteredData } = useContext(GlobalContext);
@@ -23,6 +24,14 @@ export default function ShowIcons() {
         );
         break;
       case "brand":
+        filteredData = icons.filter(
+          (icon) =>
+            icon.style === "thin" ||
+            icon.style === "solid" ||
+            icon.style === "regular" ||
+            icon.style === "light"
+        );
+        break;
       case "free":
         filteredData = icons.filter((icon) => icon.style === id);
         break;
@@ -52,7 +61,7 @@ export default function ShowIcons() {
     }
   }, [id, icons, inputIcons]);
 
-  // if (data.length === 0) return <ErrorPage />;
+   if (data.length === 0) return <ErrorPage />;
 
   return (
     <div>
@@ -71,7 +80,7 @@ export default function ShowIcons() {
         {data.map((icon, index) => (
           <div
             key={index}
-            className={`flex flex-col justify-center items-center shadow-lg hover:bg-orange-300 duration-300 ${
+            className={`flex flex-col justify-center items-center shadow hover:bg-orange-300 duration-300 ${
               styles === "roomy" ? "py-4" : "py-2"
             }`}
           >

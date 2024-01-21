@@ -7,11 +7,13 @@ import Home from './Components/Home/Home.jsx';
 import GlobalProvider from './Context/GlobalProvider.jsx';
 import AllIcons from './Components/AllIcons/AllIcons.jsx';
 import ShowIcons from './Components/ShowIcons/ShowIcons.jsx';
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement: <ErrorPage/>,
     children: [
       {
         path: "/",
