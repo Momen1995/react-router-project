@@ -1,10 +1,10 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+// import ErrorPage from '../ErrorPage/ErrorPage';
 import { GlobalContext } from "../../Context/GlobalProvider";
 
-
-const ShowIcons = () => {
-  const { styles, icons, inputIcons, category } = useContext(GlobalContext);
+export default function ShowIcons() {
+  const { styles, icons, inputIcons, filteredData } = useContext(GlobalContext);
   const [data, setData] = useState([]);
   const { id } = useParams();
 
@@ -23,63 +23,42 @@ const ShowIcons = () => {
         );
         break;
       case "brand":
-        filteredData = icons.filter(
-          (icon) =>
-            icon.style === "regular" ||
-            icon.style === "light" ||
-            icon.style === "thin" ||
-            icon.style === "solid"
-        );
-        break;
       case "free":
         filteredData = icons.filter((icon) => icon.style === id);
         break;
       case "solid":
-        filteredData = icons.filter((icon) => icon.style === "solid");
-        break;
       case "regular":
-        filteredData = icons.filter((icon) => icon.style === "regular");
-        break;
       case "thin":
-        filteredData = icons.filter((icon) => icon.style === "thin");
-        break;
       case "light":
-        filteredData = icons.filter((icon) => icon.style === "light");
+        filteredData = icons.filter((icon) => icon.style === id);
         break;
       case "alert":
-        filteredData = icons.filter((icon) => icon.category === "Alert");
-        break;
       case "alphabet":
-        filteredData = icons.filter((icon) => icon.category === "Alphabet");
-        break;
       case "communication":
+      case "business":
+      case "map":
+      case "social":
         filteredData = icons.filter(
-          (icon) => icon.category === "Communication"
+          (icon) => icon.category === id.charAt(0).toUpperCase() + id.slice(1)
         );
         break;
-      case "business":
-        filteredData = icons.filter((icon) => icon.category === "Business");
-        break;
-      case "map":
-        filteredData = icons.filter((icon) => icon.category === "Map");
-        break;
-      case "social":
-        filteredData = icons.filter((icon) => icon.category === "Social");
+      default:
         break;
     }
-    if (inputIcons.length > 0) {
+    if (inputIcons?.length > 0) {
       setData(inputIcons);
-     
     } else {
       setData(filteredData);
     }
   }, [id, icons, inputIcons]);
 
- 
+  // if (data.length === 0) return <ErrorPage />;
 
   return (
     <div>
-      
+      <h3 className="text-left font-medium capitalize">
+        {id} : {data?.length}
+      </h3>
       <div
         className={`${
           styles === "roomy"
@@ -88,11 +67,11 @@ const ShowIcons = () => {
             ? "grid grid-cols-2 lg:grid-cols-5  gap-3"
             : "grid grid-cols-2 lg:grid-cols-5 gap-6 text-center"
         }`}
-        >
+      >
         {data.map((icon, index) => (
           <div
             key={index}
-            className={`flex flex-col justify-center items-center shadow-sm hover:bg-orange-300 duration-300 ${
+            className={`flex flex-col justify-center items-center shadow-lg hover:bg-orange-300 duration-300 ${
               styles === "roomy" ? "py-4" : "py-2"
             }`}
           >
@@ -115,13 +94,11 @@ const ShowIcons = () => {
                   : "p-2"
               }`}
             >
-              {category}
+              {icon.category}
             </p>
           </div>
         ))}
       </div>
     </div>
   );
-};
-
-export default ShowIcons;  
+}

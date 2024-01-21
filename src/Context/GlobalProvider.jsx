@@ -1,27 +1,29 @@
+/* eslint-disable react/prop-types */
 import { createContext } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
 
 export const GlobalContext = createContext();
 
-const GlobalProvider = ({children}) => {
-  const [icons,setIcons] = useState([])
+const GlobalProvider = ({ children }) => {
+  const [icons, setIcons] = useState([]);
   const [inputIcons, setInputIcons] = useState(null);
   const [styles, setStyles] = useState([]);
-  const [category, setCategory] = useState([]); 
+  const [category, setCategory] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
 
-  useEffect(() =>{
-    const fetchIconData = async () =>{
-      try{
-        const response = await fetch('icons.json');
+  useEffect(() => {
+    const fetchIconData = async () => {
+      try {
+        const response = await fetch("icons.json");
         const data = await response.json();
-        setIcons(data)
-      }catch(error){
-        console.log('Error fetching Icon data:', error)
+        setIcons(data);
+      } catch (error) {
+        console.log("Error fetching Icon data:", error);
       }
-    }
+    };
     fetchIconData();
-  },[])
+  }, []);
   return (
     <GlobalContext.Provider
       value={{
@@ -32,7 +34,9 @@ const GlobalProvider = ({children}) => {
         styles,
         setStyles,
         category,
-        setCategory 
+        setCategory,
+        filteredData,
+        setFilteredData,
       }}
     >
       {children}
