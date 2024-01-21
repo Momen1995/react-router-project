@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import {
   FaQrcode,
   FaGripHorizontal,
@@ -9,8 +10,15 @@ import {
   FaAlignJustify,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { GlobalContext } from "../../Context/GlobalProvider";
 
 const IconRow = () => {
+  const { setStyles } = useContext(GlobalContext);
+
+  const handleStyle = (style) => {
+    setStyles(style);
+  };
+
   return (
     <div>
       <div className="flex flex-col lg:flex lg:flex-row gap-3 justify-between mt-12 pb-4">
@@ -51,13 +59,19 @@ const IconRow = () => {
           </Link>
         </div>
         <div className="flex items-center gap-10 mx-auto lg:mx-0 mt-8 lg:mt-0">
-          <div className="cursor-pointer">
+          <div className="cursor-pointer" onClick={() => handleStyle("roomy")}>
             <FaQrcode className="text-4xl text-sky-900 hover:text-[#146ebe]"></FaQrcode>
           </div>
-          <div className="cursor-pointer">
+          <div
+            className="cursor-pointer"
+            onClick={() => handleStyle("compact")}
+          >
             <FaGripHorizontal className="text-4xl text-sky-900 hover:text-[#146ebe]"></FaGripHorizontal>
           </div>
-          <div>
+          <div
+            onClick={() => handleStyle("cheetsheet")}
+            className="cursor-pointer"
+          >
             <FaAlignJustify className="text-4xl text-sky-900 hover:text-[#146ebe]" />
           </div>
           <div>

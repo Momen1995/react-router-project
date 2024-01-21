@@ -1,6 +1,5 @@
 import { useContext, useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-// import ErrorPage from '../ErrorPage/ErrorPage';
 import { GlobalContext } from "../../Context/GlobalProvider";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
@@ -51,8 +50,6 @@ export default function ShowIcons() {
           (icon) => icon.category === id.charAt(0).toUpperCase() + id.slice(1)
         );
         break;
-      default:
-        break;
     }
     if (inputIcons?.length > 0) {
       setData(inputIcons);
@@ -61,7 +58,7 @@ export default function ShowIcons() {
     }
   }, [id, icons, inputIcons]);
 
-   if (data.length === 0) return <ErrorPage />;
+   if (data.length === 0 ) return <ErrorPage />;
 
   return (
     <div>
@@ -73,40 +70,50 @@ export default function ShowIcons() {
           styles === "roomy"
             ? "grid grid-cols-4 gap-3"
             : styles === "compact"
-            ? "grid grid-cols-2 lg:grid-cols-5  gap-3"
-            : "grid grid-cols-2 lg:grid-cols-5 gap-6 text-center"
+            ? "grid grid-cols-1 lg:grid-cols-5  gap-3"
+            : styles === "cheetsheet"
+            ? "grid grid-cols-1 lg:grid-cols-6 gap-6 text-center"
+            : "grid grid-cols-1 lg:grid-cols-5 gap-6 text-center"
         }`}
       >
-        {data.map((icon, index) => (
-          <div
-            key={index}
-            className={`flex flex-col justify-center items-center shadow hover:bg-orange-300 duration-300 ${
-              styles === "roomy" ? "py-4" : "py-2"
-            }`}
-          >
-            <img
-              src={icon.image}
-              className={`${
-                styles === "roomy"
-                  ? "w-12"
-                  : styles === "compact"
-                  ? "w-7"
-                  : "w-10"
-              }`}
-            ></img>
-            <p
-              className={`font-medium ${
-                styles === "roomy"
-                  ? "p-4"
-                  : styles === "compact"
-                  ? "p-1"
-                  : "p-2"
+        {filteredData === 0 ? (
+          <ErrorPage />
+        ) : (
+          data.map((icon, index) => (
+            <div
+              key={index}
+              className={`flex flex-col justify-center items-center shadow hover:bg-orange-300 duration-300 ${
+                styles === "roomy" ? "py-4" : "py-2"
               }`}
             >
-              {icon.category}
-            </p>
-          </div>
-        ))}
+              <img
+                src={icon.image}
+                className={`${
+                  styles === "roomy"
+                    ? "w-12"
+                    : styles === "compact"
+                    ? "w-7"
+                    : styles === "cheetsheet"
+                    ? "w-8"
+                    : "w-10"
+                }`}
+              ></img>
+              <p
+                className={`font-medium ${
+                  styles === "roomy"
+                    ? "w-12"
+                    : styles === "compact"
+                    ? "w-7"
+                    : styles === "cheetsheet"
+                    ? "w-8 "
+                    : "w-10"
+                }`}
+              >
+                {icon.category}
+              </p>
+            </div>
+          ))
+        )}
       </div>
     </div>
   );

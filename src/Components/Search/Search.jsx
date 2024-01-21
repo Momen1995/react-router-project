@@ -40,9 +40,6 @@ const Search = () => {
         />
         <FaSearch className="absolute bottom-6 left-6 text-[18px] text-slate-800" />
       </form>
-      {filteredData.length === 0 && inputValue !== "" && (
-        <p className="text-red-500 mt-2">No data found</p>
-      )}
     </div>
   );
 };
