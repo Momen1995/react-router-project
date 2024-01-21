@@ -72,8 +72,8 @@ export default function ShowIcons() {
             : styles === "compact"
             ? "grid grid-cols-1 lg:grid-cols-5  gap-3"
             : styles === "cheetsheet"
-            ? "grid grid-cols-1 lg:grid-cols-6 gap-6 text-center"
-            : "grid grid-cols-1 lg:grid-cols-5 gap-6 text-center"
+            ? "grid grid-cols-1 lg:grid-cols-6 gap-8 text-center"
+            : "grid grid-cols-1 lg:grid-cols-5 gap-8 text-center"
         }`}
       >
         {filteredData === 0 ? (
@@ -94,7 +94,7 @@ export default function ShowIcons() {
                     : styles === "compact"
                     ? "w-7"
                     : styles === "cheetsheet"
-                    ? "w-8"
+                    ? "w-10"
                     : "w-10"
                 }`}
               ></img>
@@ -105,7 +105,7 @@ export default function ShowIcons() {
                     : styles === "compact"
                     ? "w-7"
                     : styles === "cheetsheet"
-                    ? "w-8 "
+                    ? "w-10 "
                     : "w-10"
                 }`}
               >
