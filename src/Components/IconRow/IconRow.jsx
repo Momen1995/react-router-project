@@ -17,6 +17,8 @@ const IconRow = () => {
     setStyles,
     selectedSorting,
     setSelectedSorting,
+    versions,
+    setVersions
   } = useContext(GlobalContext);
   
 
@@ -28,7 +30,9 @@ const IconRow = () => {
    setSelectedSorting(sortingOption);
  };
 
-
+ const handleVesrionChange = (versionOption) =>{
+  setVersions(versionOption)
+ }
 
   return (
     <div>
@@ -95,8 +99,7 @@ const IconRow = () => {
               <option value="Alphabetical">Alphabetical</option>
               <option value="Release">Release</option>
             </select>
-          </div>
-          
+          </div> 
         </div>
       </div>
     </div>

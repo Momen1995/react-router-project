@@ -4,7 +4,7 @@ import { GlobalContext } from "../../Context/GlobalProvider";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
 export default function ShowIcons() {
-  const { styles, icons, inputIcons, filteredData, selectedSorting  } =
+  const { styles, icons, inputIcons, filteredData, selectedSorting } =
     useContext(GlobalContext);
   const [data, setData] = useState([]);
   const { id } = useParams();
@@ -63,6 +63,7 @@ export default function ShowIcons() {
         (icon) => icon.update === "release"
       );
     }
+
 
       if (inputIcons?.length > 0) {
         setData(inputIcons);
