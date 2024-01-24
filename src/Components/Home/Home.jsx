@@ -12,7 +12,7 @@ const Home = () => {
         <div className="bg-[#fff">
           <Header />
           <Search />
-          <IconRow />
+          <IconRow/>
         </div>
         <div className="flex flex-col lg:flex-row lg:gap-4 bg-[#f0f1f3]">
           <div className="w-2/12 mt-12 text-left">

@@ -4,7 +4,8 @@ import { GlobalContext } from "../../Context/GlobalProvider";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
 export default function ShowIcons() {
-  const { styles, icons, inputIcons, filteredData } = useContext(GlobalContext);
+  const { styles, icons, inputIcons, filteredData, selectedSorting } =
+    useContext(GlobalContext);
   const [data, setData] = useState([]);
   const { id } = useParams();
 
@@ -51,18 +52,25 @@ export default function ShowIcons() {
         );
         break;
     }
+
+    if (selectedSorting === "Alphabetical") {
+      filteredData = [...filteredData].sort((a, b) => b.id - a.id);
+    }
+
+
     if (inputIcons?.length > 0) {
       setData(inputIcons);
     } else {
       setData(filteredData);
     }
-  }, [id, icons, inputIcons]);
+  }, [id, icons, inputIcons, selectedSorting]);
+
 
    if (data.length === 0 ) return <ErrorPage />;
 
   return (
     <div>
-      <h3 className="text-left font-medium capitalize">
+      <h3 className="text-left font-medium capitalize mb-5">
         {id} : {data?.length}
       </h3>
       <div
@@ -76,45 +84,42 @@ export default function ShowIcons() {
             : "grid grid-cols-1 lg:grid-cols-5 gap-8 text-center"
         }`}
       >
-        {filteredData === 0 ? (
-          <ErrorPage />
-        ) : (
-          data.map((icon, index) => (
-            <div
-              key={index}
-              className={`flex flex-col justify-center items-center shadow hover:bg-orange-300 duration-300 ${
-                styles === "roomy" ? "py-4" : "py-2"
+        {data.map((icon, index) => (
+          <div
+            key={index}
+            className={`flex flex-col justify-center items-center shadow hover:bg-orange-300 duration-300 ${
+              styles === "roomy" ? "py-4" : "py-2"
+            }`}
+          >
+            <img
+              src={icon.image}
+              className={`${
+                styles === "roomy"
+                  ? "w-12"
+                  : styles === "compact"
+                  ? "w-7"
+                  : styles === "cheetsheet"
+                  ? "w-10"
+                  : "w-10"
+              }`}
+            ></img>
+            <p
+              className={`font-medium ${
+                styles === "roomy"
+                  ? "w-12"
+                  : styles === "compact"
+                  ? "w-7"
+                  : styles === "cheetsheet"
+                  ? "w-10 "
+                  : "w-10"
               }`}
             >
-              <img
-                src={icon.image}
-                className={`${
-                  styles === "roomy"
-                    ? "w-12"
-                    : styles === "compact"
-                    ? "w-7"
-                    : styles === "cheetsheet"
-                    ? "w-10"
-                    : "w-10"
-                }`}
-              ></img>
-              <p
-                className={`font-medium ${
-                  styles === "roomy"
-                    ? "w-12"
-                    : styles === "compact"
-                    ? "w-7"
-                    : styles === "cheetsheet"
-                    ? "w-10 "
-                    : "w-10"
-                }`}
-              >
-                {icon.category}
-              </p>
-            </div>
-          ))
-        )}
+              {icon.category}
+            </p>
+          </div>
+        ))}
       </div>
+      
     </div>
   );
 }

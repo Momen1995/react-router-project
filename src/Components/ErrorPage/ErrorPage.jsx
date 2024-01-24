@@ -4,7 +4,7 @@ const ErrorPage = () => {
   return (
     <div>
       <div>
-        <div className="flex flex-col gap-7 items-center justify-center mt-32">
+        <div className="w-full flex flex-col gap-7 items-center justify-center mt-32">
           <h1 className="text-6xl text-[#183153]">
             <BsEmojiGrimaceFill />
           </h1>

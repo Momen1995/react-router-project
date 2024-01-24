@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { createContext } from "react";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -11,6 +10,8 @@ const GlobalProvider = ({ children }) => {
   const [styles, setStyles] = useState([]);
   const [category, setCategory] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
+  const [selectedSorting, setSelectedSorting] = useState("");
+
 
   useEffect(() => {
     const fetchIconData = async () => {
@@ -37,6 +38,8 @@ const GlobalProvider = ({ children }) => {
         setCategory,
         filteredData,
         setFilteredData,
+        selectedSorting,
+        setSelectedSorting,
       }}
     >
       {children}

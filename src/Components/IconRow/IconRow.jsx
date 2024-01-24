@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import {
   FaQrcode,
   FaGripHorizontal,
@@ -13,11 +13,18 @@ import { Link } from "react-router-dom";
 import { GlobalContext } from "../../Context/GlobalProvider";
 
 const IconRow = () => {
-  const { setStyles } = useContext(GlobalContext);
+  const { setStyles, selectedSorting, setSelectedSorting } =
+    useContext(GlobalContext);
+  
 
   const handleStyle = (style) => {
     setStyles(style);
   };
+
+ const handleSortingChange = (sortingOption) => {
+   setSelectedSorting(sortingOption);
+ };
+
 
   return (
     <div>
@@ -75,10 +82,14 @@ const IconRow = () => {
             <FaAlignJustify className="text-4xl text-sky-900 hover:text-[#146ebe]" />
           </div>
           <div>
-            <select className="border-2 border-[#c3c6d1] px-3 py-2 rounded  hover:outline outline-offset-3 outline-sky-400 ">
-              <option>Feature</option>
-              <option>Alphabetical</option>
-              <option>Release</option>
+            <select
+              className="border-2 border-[#c3c6d1] px-3 py-2 rounded  hover:outline outline-offset-3 outline-sky-400 "
+              value={selectedSorting}
+              onChange={(e) => handleSortingChange(e.target.value)}
+            >
+              <option value="">Feature</option>
+              <option value="Alphabetical">Alphabetical</option>
+              <option value="Release">Release</option>
             </select>
           </div>
         </div>
