@@ -4,7 +4,7 @@ import { GlobalContext } from "../../Context/GlobalProvider";
 import { useParams } from "react-router-dom";
 
 const Search = () => {
-  const { icons, setInputIcons, filteredData, setFilteredData } =
+  const { icons, setInputIcons, filteredData, setFilteredData} =
     useContext(GlobalContext);
   const { id } = useParams();
   const [inputValue, setInputValue] = useState("");
@@ -35,7 +35,7 @@ const Search = () => {
           type="text"
           value={inputValue}
           onChange={handleInputChange}
-          placeholder="Type here"
+          placeholder="Search Icons"
           className="border-solid border-2 border-[#183153] px-12 py-5 rounded-full  w-full hover:outline outline-offset-2 outline-sky-500"
         />
         <FaSearch className="absolute bottom-6 left-6 text-[18px] text-slate-800" />

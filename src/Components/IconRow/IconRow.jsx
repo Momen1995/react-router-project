@@ -13,8 +13,11 @@ import { Link } from "react-router-dom";
 import { GlobalContext } from "../../Context/GlobalProvider";
 
 const IconRow = () => {
-  const { setStyles, selectedSorting, setSelectedSorting } =
-    useContext(GlobalContext);
+  const {
+    setStyles,
+    selectedSorting,
+    setSelectedSorting,
+  } = useContext(GlobalContext);
   
 
   const handleStyle = (style) => {
@@ -24,6 +27,7 @@ const IconRow = () => {
  const handleSortingChange = (sortingOption) => {
    setSelectedSorting(sortingOption);
  };
+
 
 
   return (
@@ -54,7 +58,7 @@ const IconRow = () => {
                 <FaForward></FaForward>
               </div>
             </div>
-            Sharp
+            Sharp 
           </Link>
           <Link to="/brand">
             <FaRegFlag className="flex text-3xl gap-1 mb-4 text-sky-900  hover:text-[#146ebe]" />
@@ -83,7 +87,7 @@ const IconRow = () => {
           </div>
           <div>
             <select
-              className="border-2 border-[#c3c6d1] px-3 py-2 rounded  hover:outline outline-offset-3 outline-sky-400 "
+              className="border-2 border-[#c3c6d1] px-3 py-2 rounded  hover:outline outline-offset-5 outline-sky-400 "
               value={selectedSorting}
               onChange={(e) => handleSortingChange(e.target.value)}
             >
@@ -92,6 +96,7 @@ const IconRow = () => {
               <option value="Release">Release</option>
             </select>
           </div>
+          
         </div>
       </div>
     </div>

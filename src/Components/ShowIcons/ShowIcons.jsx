@@ -4,7 +4,7 @@ import { GlobalContext } from "../../Context/GlobalProvider";
 import ErrorPage from "../ErrorPage/ErrorPage";
 
 export default function ShowIcons() {
-  const { styles, icons, inputIcons, filteredData, selectedSorting } =
+  const { styles, icons, inputIcons, filteredData, selectedSorting  } =
     useContext(GlobalContext);
   const [data, setData] = useState([]);
   const { id } = useParams();
@@ -47,6 +47,7 @@ export default function ShowIcons() {
       case "business":
       case "map":
       case "social":
+      case "car":
         filteredData = icons.filter(
           (icon) => icon.category === id.charAt(0).toUpperCase() + id.slice(1)
         );
@@ -54,15 +55,21 @@ export default function ShowIcons() {
     }
 
     if (selectedSorting === "Alphabetical") {
-      filteredData = [...filteredData].sort((a, b) => b.id - a.id);
+      filteredData = [...filteredData].sort((a, b) =>
+        a.category.localeCompare(b.category)
+      );
+    }else if (selectedSorting === "Release"){
+      filteredData = [...filteredData].filter(
+        (icon) => icon.update === "release"
+      );
     }
 
+      if (inputIcons?.length > 0) {
+        setData(inputIcons);
+      } else {
+        setData(filteredData);
+      }
 
-    if (inputIcons?.length > 0) {
-      setData(inputIcons);
-    } else {
-      setData(filteredData);
-    }
   }, [id, icons, inputIcons, selectedSorting]);
 
 
@@ -70,7 +77,7 @@ export default function ShowIcons() {
 
   return (
     <div>
-      <h3 className="text-left font-medium capitalize mb-5">
+      <h3 className="text-center lg:text-left font-medium capitalize mb-5">
         {id} : {data?.length}
       </h3>
       <div
@@ -87,9 +94,7 @@ export default function ShowIcons() {
         {data.map((icon, index) => (
           <div
             key={index}
-            className={`flex flex-col justify-center items-center shadow hover:bg-orange-300 duration-300 ${
-              styles === "roomy" ? "py-4" : "py-2"
-            }`}
+            className={`w-1/2 lg:w-full mx-auto flex flex-col gap-2 justify-center items-center text-[13px] text-center shadow-sm hover:bg-orange-300 duration-300 p-4`}
           >
             <img
               src={icon.image}
@@ -119,7 +124,6 @@ export default function ShowIcons() {
           </div>
         ))}
       </div>
-      
     </div>
   );
 }

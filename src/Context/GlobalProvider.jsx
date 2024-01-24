@@ -39,7 +39,7 @@ const GlobalProvider = ({ children }) => {
         filteredData,
         setFilteredData,
         selectedSorting,
-        setSelectedSorting,
+        setSelectedSorting, 
       }}
     >
       {children}

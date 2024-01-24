@@ -6,7 +6,7 @@ const AllIcons = () => {
   const {icons} = useContext(GlobalContext)
   return (
     <div>
-      <h3 className="text-[#183153] font-semibold text-xl">{icons.length} Icons</h3>
+      <h3 className="text-[#183153] font-semibold text-[14px]">{icons.length} Icons</h3>
       <div className="grid grid-cols-2 lg:grid-cols-5 gap-6 text-center">
         {icons.map((icon, index) => (
           <div

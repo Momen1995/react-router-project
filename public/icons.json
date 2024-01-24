@@ -4,56 +4,64 @@
     "category": "Alert",
     "icon": "AlertIcon-sharp",
     "style": "thin",
-    "image": "https://i.ibb.co/nnqVKNP/images-11.png"
+    "image": "https://i.ibb.co/nnqVKNP/images-11.png",
+    "version" : 6
   },
   {
     "id": 2,
     "category": "Alert",
     "icon": "AlertIcon-thin",
     "style": "thin",
-    "image": "https://i.ibb.co/xCDTLM7/1076332.png"
+    "image": "https://i.ibb.co/xCDTLM7/1076332.png",
+    "version": 6
   },
   {
     "id": 3,
     "category": "Alert",
     "icon": "AlertIcon-thin",
     "style": "thin",
-    "image": "https://i.ibb.co/VHTMN1h/warning-thin-icon-171428.png"
+    "image": "https://i.ibb.co/VHTMN1h/warning-thin-icon-171428.png",
+    "version": 6
   },
   {
     "id": 4,
     "category": "Alert",
     "icon": "AlertIcon-regular",
     "style": "regular",
-    "image": "https://i.ibb.co/87kyHB0/mail-alert-regular-icon-203489.png"
+    "image": "https://i.ibb.co/87kyHB0/mail-alert-regular-icon-203489.png",
+    "version" : 5
   },
   {
     "id": 5,
     "category": "Alert",
     "icon": "AlertIcon-regular",
     "style": "regular",
-    "image": "https://i.ibb.co/Ny0yPV9/alert-on-regular-icon-204086.png"
+    "image": "https://i.ibb.co/Ny0yPV9/alert-on-regular-icon-204086.png",
+    "version": 5
   },
   {
     "id": 6,
     "category": "Alert",
     "icon": "AlertIcon-solid",
     "style": "solid",
-    "image": "https://i.ibb.co/DQWxz09/png-transparent-warning-alert-attention-ui-lines-icon.png"
+    "image": "https://i.ibb.co/DQWxz09/png-transparent-warning-alert-attention-ui-lines-icon.png",
+    "version": 5
   },
   {
     "id": 7,
     "category": "Alert",
     "icon": "AlertIcon-solid",
     "style": "solid",
-    "image": "https://i.ibb.co/R9v8y2Z/png-transparent-computer-icons-emergency-alert-system-icon-design-dv-angle-text-triangle.png"
+    "image": "https://i.ibb.co/R9v8y2Z/png-transparent-computer-icons-emergency-alert-system-icon-design-dv-angle-text-triangle.png",
+    "version": 5
   },
   {
     "id": 8,
     "category": "Alert",
     "icon": "AlertIcon-solid",
     "style": "solid",
-    "image": "https://i.ibb.co/KKQKyD6/images.png"
+    "image": "https://i.ibb.co/KKQKyD6/images.png",
+    "version": 5
   },
 
   {
@@ -61,70 +69,80 @@
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/w4QZTj5/1492531732-icon-sets-school-outline-hand-drawn-iconfinder09-83202.png"
+    "image": "https://i.ibb.co/w4QZTj5/1492531732-icon-sets-school-outline-hand-drawn-iconfinder09-83202.png",
+    "version": 5
   },
   {
     "id": 10,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/gw2rMnd/images-3.png"
+    "image": "https://i.ibb.co/gw2rMnd/images-3.png",
+    "version": 5
   },
   {
     "id": 11,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/gw2rMnd/images-3.png"
+    "image": "https://i.ibb.co/gw2rMnd/images-3.png",
+    "version": 5
   },
   {
     "id": 12,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/w4QZTj5/1492531732-icon-sets-school-outline-hand-drawn-iconfinder09-83202.png"
+    "image": "https://i.ibb.co/w4QZTj5/1492531732-icon-sets-school-outline-hand-drawn-iconfinder09-83202.png",
+    "version": 6
   },
   {
     "id": 13,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/w4QZTj5/1492531732-icon-sets-school-outline-hand-drawn-iconfinder09-83202.png"
+    "image": "https://i.ibb.co/w4QZTj5/1492531732-icon-sets-school-outline-hand-drawn-iconfinder09-83202.png",
+    "version": 6
   },
   {
     "id": 14,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/1rf8Qpn/Education-2-28135-29.jpg"
+    "image": "https://i.ibb.co/1rf8Qpn/Education-2-28135-29.jpg",
+    "version": 6
   },
   {
     "id": 15,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/gw2rMnd/images-3.png"
+    "image": "https://i.ibb.co/gw2rMnd/images-3.png",
+    "version": 5
   },
   {
     "id": 16,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/z4YCjvr/images-2.png"
+    "image": "https://i.ibb.co/z4YCjvr/images-2.png",
+    "version": 5
   },
   {
     "id": 17,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/X3Bjykn/images-4.png"
+    "image": "https://i.ibb.co/X3Bjykn/images-4.png",
+    "version": 6
   },
   {
     "id": 18,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/X3Bjykn/images-4.png"
+    "image": "https://i.ibb.co/X3Bjykn/images-4.png",
+    "version": 5
   },
 
   {
@@ -132,63 +150,72 @@
     "category": "Social",
     "icon": "SocialIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/8P6MgCz/4659484.png"
+    "image": "https://i.ibb.co/8P6MgCz/4659484.png",
+    "version": 5
   },
   {
     "id": 20,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/cF5DVmZ/3084264.png"
+    "image": "https://i.ibb.co/cF5DVmZ/3084264.png",
+    "version": 5
   },
   {
     "id": 21,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/ByJdLZ7/3084311.png"
+    "image": "https://i.ibb.co/ByJdLZ7/3084311.png",
+    "version": 6
   },
   {
     "id": 22,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/ByJdLZ7/3084311.png"
+    "image": "https://i.ibb.co/ByJdLZ7/3084311.png",
+    "version": 5
   },
   {
     "id": 23,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/pb4LD2t/1000-F-114709500-5-PNv-Sv8x-Fz-Sh-X7-UFa-Gi-LXry-SKk-CGqjql.jpg"
+    "image": "https://i.ibb.co/pb4LD2t/1000-F-114709500-5-PNv-Sv8x-Fz-Sh-X7-UFa-Gi-LXry-SKk-CGqjql.jpg",
+    "version": 6
   },
   {
     "id": 24,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/K0wDTfm/images-5.png"
+    "image": "https://i.ibb.co/K0wDTfm/images-5.png",
+    "version" : 5
   },
   {
     "id": 24,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/q063fwB/facebook-logo-thin-icon-171792.png"
+    "image": "https://i.ibb.co/q063fwB/facebook-logo-thin-icon-171792.png",
+    "version": 6
   },
   {
     "id": 25,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/7X4h5RP/225129.png"
+    "image": "https://i.ibb.co/7X4h5RP/225129.png",
+    "version": 6
   },
   {
     "id": 26,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/VSzYTth/images-6.png"
+    "image": "https://i.ibb.co/VSzYTth/images-6.png",
+    "version": 5
   },
 
   {
@@ -196,63 +223,72 @@
     "category": "Map",
     "icon": "MapIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/r5zf2MY/istockphoto-943476392-612x612.jpg"
+    "image": "https://i.ibb.co/r5zf2MY/istockphoto-943476392-612x612.jpg",
+    "version": 6
   },
   {
     "id": 28,
     "category": "Map",
     "icon": "MapIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/r5zf2MY/istockphoto-943476392-612x612.jpg"
+    "image": "https://i.ibb.co/r5zf2MY/istockphoto-943476392-612x612.jpg",
+    "version": 5
   },
   {
     "id": 29,
     "category": "Map",
     "icon": "MapIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/R3Dn8p6/800px-COLOURBOX35629241.jpg"
+    "image": "https://i.ibb.co/R3Dn8p6/800px-COLOURBOX35629241.jpg",
+    "version": 6
   },
   {
     "id": 30,
     "category": "Map",
     "icon": "MapIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/DG35LQY/istockphoto-1470608008-612x612.jpg"
+    "image": "https://i.ibb.co/DG35LQY/istockphoto-1470608008-612x612.jpg",
+    "version": 6
   },
   {
     "id": 31,
     "category": "Map",
     "icon": "MapIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/7kDypzy/istockphoto-1446105638-612x612.jpg"
+    "image": "https://i.ibb.co/7kDypzy/istockphoto-1446105638-612x612.jpg",
+    "version": 5
   },
   {
     "id": 32,
     "category": "Map",
     "icon": "MapIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg"
+    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg",
+    "version": 5
   },
   {
     "id": 33,
     "category": "Map",
     "icon": "MapIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg"
+    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg",
+    "version": 6
   },
   {
     "id": 33,
     "category": "Map",
     "icon": "MapIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg"
+    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg",
+    "version": 5
   },
   {
     "id": 34,
     "category": "Map",
     "icon": "regular",
     "style": "solid",
-    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg"
+    "image": "https://i.ibb.co/C94LR1R/istockphoto-841185248-612x612.jpg",
+    "version": 6
   },
 
   {
@@ -260,63 +296,72 @@
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/z6nJdNg/communication-icon-trendy-modern-flat-linear-communication-icon-on-white-background-from-thin-line-c.jpg"
+    "image": "https://i.ibb.co/z6nJdNg/communication-icon-trendy-modern-flat-linear-communication-icon-on-white-background-from-thin-line-c.jpg",
+    "version": 5
   },
   {
     "id": 36,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/hXRfgdt/images-7.png"
+    "image": "https://i.ibb.co/hXRfgdt/images-7.png",
+    "version": 5
   },
   {
     "id": 37,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/TgtrD3K/telephone2.png"
+    "image": "https://i.ibb.co/TgtrD3K/telephone2.png",
+    "version": 5
   },
   {
     "id": 38,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/TgtrD3K/telephone2.png"
+    "image": "https://i.ibb.co/TgtrD3K/telephone2.png",
+    "version": 6
   },
   {
     "id": 39,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/tmSMQ2q/images-9.png"
+    "image": "https://i.ibb.co/tmSMQ2q/images-9.png",
+    "version": 5
   },
   {
     "id": 40,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/3kzVvTY/images-8.png"
+    "image": "https://i.ibb.co/3kzVvTY/images-8.png",
+    "version": 6
   },
   {
     "id": 41,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/zG2cywM/communication-icon.png"
+    "image": "https://i.ibb.co/zG2cywM/communication-icon.png",
+    "version": 5
   },
   {
     "id": 42,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/3YkFcd0/417718.png"
+    "image": "https://i.ibb.co/3YkFcd0/417718.png",
+    "version": 5
   },
   {
     "id": 43,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/Hp3LWZV/1545615.png"
+    "image": "https://i.ibb.co/Hp3LWZV/1545615.png",
+    "version": 6
   },
 
   {
@@ -324,188 +369,362 @@
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/0B44CQ5/4513513.png"
+    "image": "https://i.ibb.co/0B44CQ5/4513513.png",
+    "version": 5
   },
   {
     "id": 45,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/pZFPJ5P/6249277.png"
+    "image": "https://i.ibb.co/pZFPJ5P/6249277.png",
+    "version": 6
   },
   {
     "id": 46,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "regular",
-    "image": "https://i.ibb.co/3kzVvTY/images-8.png"
+    "image": "https://i.ibb.co/3kzVvTY/images-8.png",
+    "version": 5
   },
   {
     "id": 47,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/RS9kYmm/order-3212-image-2-300x300.jpg"
+    "image": "https://i.ibb.co/RS9kYmm/order-3212-image-2-300x300.jpg",
+    "version": 5
   },
   {
     "id": 48,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/W5gSB8x/Client-employee-business-man-icon-Graphics-31597820-1-580x386.jpg"
+    "image": "https://i.ibb.co/W5gSB8x/Client-employee-business-man-icon-Graphics-31597820-1-580x386.jpg",
+    "version": 6
   },
   {
     "id": 49,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "thin",
-    "image": "https://i.ibb.co/6s6Szc6/businessman-icon-simple-style-vector.jpg"
+    "image": "https://i.ibb.co/6s6Szc6/businessman-icon-simple-style-vector.jpg",
+    "version": 6
   },
   {
     "id": 50,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/qR6bz3T/images.jpg"
+    "image": "https://i.ibb.co/qR6bz3T/images.jpg",
+    "version": 6
   },
   {
     "id": 51,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/ZLZw4br/images-1.jpg"
+    "image": "https://i.ibb.co/ZLZw4br/images-1.jpg",
+    "version": 5
   },
   {
     "id": 52,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "solid",
-    "image": "https://i.ibb.co/8D4MQgC/1000-F-222723488-RNae2l-AJ8w0-Lm-IE1z-Ge2ytq8-DTa-Wmb53.jpg"
+    "image": "https://i.ibb.co/8D4MQgC/1000-F-222723488-RNae2l-AJ8w0-Lm-IE1z-Ge2ytq8-DTa-Wmb53.jpg",
+    "version": 6
   },
   {
     "id": 53,
     "category": "Alert",
     "icon": "AlertIcon-sharp",
     "style": "light",
-    "image": "https://i.ibb.co/nnqVKNP/images-11.png"
+    "image": "https://i.ibb.co/nnqVKNP/images-11.png",
+    "version": 5
   },
   {
     "id": 54,
     "category": "Alert",
     "icon": "AlertIcon-sharp",
     "style": "light",
-    "image": "https://i.ibb.co/6v5xxRv/images-10.png"
+    "image": "https://i.ibb.co/6v5xxRv/images-10.png",
+    "version": 5
   },
   {
     "id": 55,
     "category": "Alert",
     "icon": "AlertIcon-sharp",
     "style": "light",
-    "image": "https://i.ibb.co/vdLNq7G/images-12.png"
+    "image": "https://i.ibb.co/vdLNq7G/images-12.png",
+    "version": 5
   },
   {
     "id": 56,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "light",
-    "image": "https://i.ibb.co/5jkMpF0/images-14.png"
+    "image": "https://i.ibb.co/5jkMpF0/images-14.png",
+    "version": 6
   },
   {
     "id": 57,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "light",
-    "image": "https://i.ibb.co/qszTWQP/images-13.png"
+    "image": "https://i.ibb.co/qszTWQP/images-13.png",
+    "version": 5
   },
   {
     "id": 58,
     "category": "Alphabet",
     "icon": "AlphabetIcon",
     "style": "light",
-    "image": "https://i.ibb.co/QcBZYDj/images-15.png"
+    "image": "https://i.ibb.co/QcBZYDj/images-15.png",
+    "version": 6
   },
   {
     "id": 59,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "light",
-    "image": "https://i.ibb.co/TqZZgsr/idea-line-icon-icon-for-your-website-mobile-presentation-and-logo-design-vector.jpg"
+    "image": "https://i.ibb.co/TqZZgsr/idea-line-icon-icon-for-your-website-mobile-presentation-and-logo-design-vector.jpg",
+    "version": 5
   },
   {
     "id": 60,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "light",
-    "image": "https://i.ibb.co/7pWJnWX/icon-concept-of-basic-or-regular-light-bulb-sparkling-and-shining-in-simple-line-style-can-used-for.jpg"
+    "image": "https://i.ibb.co/7pWJnWX/icon-concept-of-basic-or-regular-light-bulb-sparkling-and-shining-in-simple-line-style-can-used-for.jpg",
+    "version": 5
   },
   {
     "id": 61,
     "category": "Social",
     "icon": "SocialIcon",
     "style": "light",
-    "image": "https://i.ibb.co/NmpkBjg/images-7.png"
+    "image": "https://i.ibb.co/NmpkBjg/images-7.png",
+    "version": 5
   },
   {
     "id": 62,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "light",
-    "image": "https://i.ibb.co/nmBBCrj/images-1.jpg"
+    "image": "https://i.ibb.co/nmBBCrj/images-1.jpg",
+    "version": 5
   },
   {
     "id": 63,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "light",
-    "image": "https://i.ibb.co/2W5xSRG/images-18.png"
+    "image": "https://i.ibb.co/2W5xSRG/images-18.png",
+    "version": 5
   },
   {
     "id": 64,
     "category": "Business",
     "icon": "BusinessIcon",
     "style": "light",
-    "image": "https://i.ibb.co/vDhDmN0/images-17.png"
+    "image": "https://i.ibb.co/vDhDmN0/images-17.png",
+    "version": 5
   },
   {
     "id": 65,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "light",
-    "image": "https://i.ibb.co/NmpkBjg/images-7.png"
+    "image": "https://i.ibb.co/NmpkBjg/images-7.png",
+    "version": 5
   },
   {
     "id": 66,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "light",
-    "image": "https://i.ibb.co/Y8VLj1M/pngtree-communication-flat-icon-png-image-3607870.jpg"
+    "image": "https://i.ibb.co/Y8VLj1M/pngtree-communication-flat-icon-png-image-3607870.jpg",
+    "version": 6
   },
   {
     "id": 67,
     "category": "Communication",
     "icon": "CommunicationIcon",
     "style": "light",
-    "image": "https://i.ibb.co/vmprZRj/images-2.jpg"
+    "image": "https://i.ibb.co/vmprZRj/images-2.jpg",
+    "version": 6
   },
   {
     "id": 68,
     "category": "Map",
     "icon": "MapIcon",
     "style": "light",
-    "image": "https://i.ibb.co/x22qpZ5/communication-icon-png-65790.jpg"
+    "image": "https://i.ibb.co/x22qpZ5/communication-icon-png-65790.jpg",
+    "version": 6
   },
   {
     "id": 69,
     "category": "Map",
     "icon": "MapIcon",
     "style": "light",
-    "image": "https://i.ibb.co/Wt5M0dp/4196292.png"
+    "image": "https://i.ibb.co/Wt5M0dp/4196292.png",
+    "version": 5
   },
   {
     "id": 70,
     "category": "Map",
     "icon": "MapIcon",
     "style": "light",
-    "image": "https://i.ibb.co/1f91MjH/7028016.png"
+    "image": "https://i.ibb.co/1f91MjH/7028016.png",
+    "version" : 5
+  },
+  {
+    "id": 71,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "light",
+    "image": "https://i.ibb.co/vms3KXB/4276125.png",
+    "version": 6
+  },
+  {
+    "id": 72,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "thin",
+    "image": "https://i.ibb.co/1f91MjH/7028016.png",
+    "version": 5
+  },
+  {
+    "id": 73,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "thin",
+    "image": "https://i.ibb.co/BjWsgrg/414945-200.png",
+    "version": 5
+  },
+  {
+    "id": 74,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "thin",
+    "image": "https://i.ibb.co/t2m0LKy/1000-F-223979829-18v1zj-QTdq3-Ybn-UNm-Im-Kca-Ab-BHZ8w5-Yn.jpg",
+    "version": 5
+  },
+  {
+    "id": 75,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "thin",
+    "image": "https://i.ibb.co/HDbbxrh/istockphoto-1193941503-612x612.jpg",
+    "version": 6
+  },
+  {
+    "id": 76,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "regular",
+    "image": "https://i.ibb.co/Db4FpKx/6115751.png",
+    "version": 6
+  },
+  {
+    "id": 77,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "regular",
+    "image": "https://i.ibb.co/Db4FpKx/6115751.png",
+    "version": 5
+  },
+  {
+    "id": 78,
+    "category": "Car",
+    "icon": "CarIcon",
+    "style": "regular",
+    "image": "https://i.ibb.co/Db4FpKx/6115751.png",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 79,
+    "category": "Alert",
+    "icon": "Alert new",
+    "style": "regular",
+    "image": "https://i.ibb.co/qJnbNyy/3696367.png",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 80,
+    "category": "Alert",
+    "icon": "Alert new",
+    "style": "thin",
+    "image": "https://i.ibb.co/gZt22NY/2082621-200.png",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 81,
+    "category": "Map",
+    "icon": "Map new",
+    "style": "thin",
+    "image": "https://i.ibb.co/vVH9Bgk/32583bc980318d3ebd61c1249dfb5bef.jpg",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 82,
+    "category": "Map",
+    "icon": "Map new",
+    "style": "light",
+    "image": "https://i.ibb.co/YNBy7wn/5088135.png",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 82,
+    "category": "Alphabet",
+    "icon": "Alphabet new",
+    "style": "light",
+    "image": "https://i.ibb.co/2M0dxMk/3595030.png",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 83,
+    "category": "Alphabet",
+    "icon": "Alphabet new",
+    "style": "regular",
+    "image": "https://i.ibb.co/yyZdsLn/images-3.jpg",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 84,
+    "category": "Social",
+    "icon": "Social new",
+    "style": "regular",
+    "image": "https://i.ibb.co/crv65qg/5bac7554c5c6ce538a7dcf00b7de88c4.jpg",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 85,
+    "category": "Social",
+    "icon": "Social new",
+    "style": "solid",
+    "image": "https://i.ibb.co/C2DZtR3/images-20.png",
+    "version" : 5,
+    "update" : "release"
+  },
+  {
+    "id": 85,
+    "category": "Communication",
+    "icon": "CommunicationIcon new",
+    "style": "solid",
+    "image": "https://i.ibb.co/kQQqKN9/6304902.png",
+    "version" : 5,
+    "update" : "release"
   }
+  
 ]
